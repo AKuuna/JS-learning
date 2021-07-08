@@ -1,0 +1,13 @@
+const weather = prompt('What wheather is today? Type one of: sunny/windy/snowy/rainy');
+
+if (weather==='rainy'){
+console.log('Take an umbrella!');
+}
+
+else if (weather==='windy'|| weather==='snowy'){
+console.log('Stay at home!');
+}
+
+else {
+console.log("Get yourself out of home!")
+}
